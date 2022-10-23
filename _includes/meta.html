@@ -4,5 +4,6 @@
 <meta http-equiv="content-language" content="en-us">
 
 <!-- Primary Meta Tags -->
-<title>Is America Great Yet? - {{title}}</title>
-<meta name="description" content="">
+<title>Is America Great Yet? - {{page.title}}</title>
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">

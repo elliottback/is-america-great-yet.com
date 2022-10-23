@@ -5,3 +5,4 @@ include: ['topics']
 url: "https://is-america-great-yet.com"
 plugins:
   - jekyll-sitemap
+description: "MAGA leads to an evaluatory counter-question: Is America Great Yet? Unfortunately, the current answer is no."
