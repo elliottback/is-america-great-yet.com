@@ -1,0 +1,7 @@
+timezone: Asia/Tokyo
+strict_front_matter: true
+permalink: pretty
+include: ['topics']
+url: "https://is-america-great-yet.com"
+plugins:
+  - jekyll-sitemap

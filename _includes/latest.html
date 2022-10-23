@@ -1,0 +1,16 @@
+<!-- Section-->
+<section>
+    <header class="major">
+        <h2>Latest posts</h2>
+    </header>
+    <div class="content">
+        <ul>
+        {% for post in site.posts limit:10 %}
+            <li>
+                {{post.date | date_to_string}} - <strong><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></strong>
+                {{post.excerpt}}
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+</section>
